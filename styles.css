@@ -1,0 +1,160 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 179px 42px;
+
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: linear-gradient(0deg, #4CB538, #6FBF44);
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    opacity: 0.8;
+}
+
+.button-header:active {
+    opacity: 0.5;
+}
+
+
+.logo-image {
+    Width: 595px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 515px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.button-main {
+    background: #ffffff;
+    border: none;
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+    margin-top: 55px;
+    margin-bottom: 114px;
+
+}
+
+.button-main:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1400px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-image {
+        order: 2;
+    }
+
+    section {
+        order: 1;
+    }
+    
+    .link-header{
+        display: none;
+    }
+
+    .button-header {
+        margin: 17px 15px 0px 284px;
+        
+    }
+
+    .logo-image {
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: static;
+        max-width: 90%;
+    }
+    
+    section {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 76px 55px 0 55px;
+        width: auto;
+        text-align: center;
+    }
+
+    p {
+        margin: 29px 43px 0 43px;
+        font-size: 18px;
+        line-height: 33px;
+        width: auto; 
+        text-align: center;
+    }
+
+    .button-main {
+        margin: 26px 139px 59px 139px;
+        display: block;
+    }
+    
+
+
+
+
+}
